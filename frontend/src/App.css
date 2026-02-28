@@ -1,0 +1,21 @@
+/* Google Font Outfit */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+
+  --color-primary: #1E3A8A;  /*#1E3A8A (Deep Blue)*/
+  --color-secondary: #14B8A6; /*#14B8A6 (Teal)*/
+  --color-accent: #F8FAFC; /*#F8FAFC (Very Light Gray)*/
+
+}
+
+*{
+      font-family: "Outfit", sans-serif;
+}
+
